@@ -14,10 +14,10 @@ const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 pb-16">
       {/* Background Elements */}
-      <div className="absolute top-0 left-0 right-0 h-full -z-10 bg-gradient-to-b from-blue-50/50 via-background to-background" />
+      <div className="absolute top-0 left-0 right-0 h-full -z-10 bg-gradient-to-b from-primary/5 via-background to-background" />
       
-      <div className="absolute top-20 -right-10 w-72 h-72 bg-primary/5 rounded-full blur-3xl" />
-      <div className="absolute top-40 -left-10 w-64 h-64 bg-cyan-500/5 rounded-full blur-3xl" />
+      <div className="absolute top-20 -right-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl" />
+      <div className="absolute top-40 -left-10 w-64 h-64 bg-cyan-500/10 rounded-full blur-3xl" />
       
       <div className="container max-w-5xl">
         <div className="space-y-16 text-center">

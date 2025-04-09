@@ -8,31 +8,31 @@ const skills = [
     category: 'Database Management',
     items: ['SQL', 'MongoDB'],
     icon: <Database className="h-5 w-5" />,
-    color: 'bg-blue-100 text-blue-600',
+    color: 'bg-blue-950 text-blue-400',
   },
   {
     category: 'Cloud Computing',
     items: ['AWS', 'Azure', 'Google Cloud'],
     icon: <Cloud className="h-5 w-5" />,
-    color: 'bg-cyan-100 text-cyan-600',
+    color: 'bg-cyan-950 text-cyan-400',
   },
   {
     category: 'Cybersecurity',
     items: ['Network Security', 'Penetration Testing'],
     icon: <Lock className="h-5 w-5" />,
-    color: 'bg-emerald-100 text-emerald-600',
+    color: 'bg-emerald-950 text-emerald-400',
   },
   {
     category: 'Programming',
     items: ['Python', 'Java', 'JavaScript'],
     icon: <Code className="h-5 w-5" />,
-    color: 'bg-indigo-100 text-indigo-600',
+    color: 'bg-indigo-950 text-indigo-400',
   },
 ];
 
 const About = () => {
   return (
-    <section id="about" className="py-24 bg-blue-gray">
+    <section id="about" className="py-24 bg-secondary/50">
       <div className="container section-container">
         <AnimatedSection animation="slide-up">
           <span className="inline-block text-sm font-medium text-primary px-3 py-1 mb-6 rounded-full bg-primary/10">
@@ -83,7 +83,7 @@ const About = () => {
                         {skill.items.map(item => (
                           <span 
                             key={item}
-                            className="px-3 py-1 bg-white/50 rounded-full text-sm"
+                            className="px-3 py-1 bg-secondary/50 rounded-full text-sm"
                           >
                             {item}
                           </span>

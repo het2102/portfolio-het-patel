@@ -7,7 +7,8 @@
 
 @layer base {
   :root {
-    --background: 210 33% 99%;
+    /* Light mode colors */
+    --background: 222 47% 97%;
     --foreground: 222 47% 11%;
 
     --card: 0 0% 100%;
@@ -43,7 +44,8 @@
   }
 
   .dark {
-    --background: 222 47% 6%;
+    /* Dark mode colors */
+    --background: 222 47% 5%;
     --foreground: 210 40% 98%;
 
     --card: 222 47% 8%;
@@ -70,6 +72,20 @@
     --border: 222 47% 15%;
     --input: 222 47% 15%;
     --ring: 212 27% 84%;
+
+    /* Custom colors */
+    --light-blue: 210 100% 20%;
+    --blue-gray: 210 10% 10%;
+
+    /* Sidebar colors */
+    --sidebar-background: 222 47% 6%;
+    --sidebar-foreground: 210 40% 98%;
+    --sidebar-primary: 210 100% 50%;
+    --sidebar-primary-foreground: 222 47% 5%;
+    --sidebar-accent: 222 47% 10%;
+    --sidebar-accent-foreground: 210 40% 98%;
+    --sidebar-border: 222 47% 15%;
+    --sidebar-ring: 212 27% 84%;
   }
 }
 
@@ -116,7 +132,7 @@
 
 @layer components {
   .glass-morphism {
-    @apply bg-white/90 backdrop-blur-lg border border-white/40 shadow-glass;
+    @apply bg-card/80 backdrop-blur-lg border border-border/60 shadow-glass;
   }
 
   .glass-card {

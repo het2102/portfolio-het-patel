@@ -36,10 +36,10 @@ const Index = () => {
   }, [location]);
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col dark">
       <Header />
       
-      <main className="flex-1 bg-white">
+      <main className="flex-1 bg-background">
         <Hero />
         <About />
         <Projects />
