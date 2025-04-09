@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import { ArrowLeft, Github, ExternalLink } from 'lucide-react';
@@ -36,7 +35,7 @@ const projectsData = [
     ],
     technologies: ['Python', 'XML', 'NLP', 'API Integration', 'Google Translate API'],
     github: 'https://github.com/het2102',
-    image: '/placeholder.svg'
+    image: '/lovable-uploads/7593045b-112f-4c74-98bd-45bb42061dcc.png'
   },
   {
     id: 'task-management',
