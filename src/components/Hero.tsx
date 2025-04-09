@@ -38,10 +38,11 @@ const Hero = () => {
               <div className="relative w-80 h-80 rounded-2xl overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-transparent" />
                 <div className="absolute inset-0 flex items-center justify-center">
-                  {/* Placeholder for profile image - replace with actual image */}
-                  <div className="w-full h-full bg-blue-100/50 flex items-center justify-center">
-                    <span className="text-3xl font-bold text-primary/40">HP</span>
-                  </div>
+                  <img 
+                    src="/lovable-uploads/62e7a485-0aa7-4283-ae02-0fcdada4135b.png" 
+                    alt="Het Patel" 
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
             </AnimatedSection>
